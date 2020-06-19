@@ -31,15 +31,15 @@ html, body{
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: 'Century Gothic';
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 header {
-	background: #4472C4;
+	background: #245b98;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	min-height: 30vh;
+	min-height: 60vh;
 	display: flex;
 	align-items: center;
 	text-align: justify;
@@ -118,6 +118,7 @@ main .post-content{
 main .site-content .post-content > .post-image, .post-title{
     padding: 1rem 2rem;
     position: relative;
+    text-align: center;
 }
 
 main .site-content .post-content > .post-image .post-info{
