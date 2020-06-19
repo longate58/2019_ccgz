@@ -511,6 +511,10 @@ footer.footer .move-up span:hover{
 	.contenido-principal > * {
 		width: 100%;
 	}
+
+
+
+
     .site-content .post-content > .post-image .post-info{
         left: 2rem !important;
         bottom: 1.2rem !important;
@@ -538,6 +542,18 @@ footer.footer .move-up span:hover{
 
     .site-content .post-content > .post-image .post-info{
         display: none;
+    }
+
+    .contenido-principal__titulo{
+        width: 90%;
+        position: relative;
+        left: 25px;
+    }
+
+    .contenido-principal__resumen{
+        width: 80%;
+        position: relative;
+        left: 35px;
     }
 
 
