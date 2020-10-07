@@ -8,9 +8,9 @@
 :root{
 
     /*      Theme colors        */
-    --text-gray: #7F7F7F;
-    --text-light : #686666da;
-    --bg-color: #245b98;
+    --text-gray: #3f4954;
+    --text-light : #0071b3;
+    --bg-color: #0f0f0f;
     --white: #ffffff;
     --midnight: #104f55;
 
@@ -36,10 +36,10 @@ html, body{
 
 
 header {
-	background: #245b98;
+	background: #0071bc;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	min-height: 60vh;
+	min-height: 50vh;
 	display: flex;
 	align-items: center;
 	text-align: justify;
@@ -424,16 +424,14 @@ footer.footer .container > div{
     flex-grow: 1;
     flex-basis: 0;
     padding: 3rem .9rem;
-    color: var(--white);
 }
 
-footer.footer .container h2,
-footer.footer .container p{
+footer.footer .container h2{
     color: var(--white);
 }
 
 footer.footer .newsletter .form-element{
-    background: #245b98;
+    background: black;
     display: inline-block;
 }
 
@@ -441,7 +439,7 @@ footer.footer .newsletter .form-element input{
     padding: .5rem .7rem;
     border: none;
     background: transparent;
-    color:  var(--black);
+    color: white;
     font-family: var(--Josefin);
     font-size: 1rem;
     width: 74%;
@@ -470,8 +468,8 @@ footer.footer .rights{
     font-family: var(--Josefin);
 }
 
-footer.footer .rights h4{
-    color: var(--black);
+footer.footer .rights h4 a{
+    color: var(--white);
 }
 
 footer.footer .move-up{
@@ -481,7 +479,7 @@ footer.footer .move-up{
 }
 
 footer.footer .move-up span{
-    color: var(--white);
+    color: var(--midnight);
 }
 
 footer.footer .move-up span:hover{
