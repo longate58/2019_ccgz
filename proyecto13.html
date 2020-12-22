@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Demografia</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+		<link rel="shortcut icon" href="img/ccgz.webp" type="image/x-icon">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+		<link rel="stylesheet" href="css/Proyectos.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+            integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+            crossorigin="" />
+
+
+
+	</head>
+
+	<body>
+		<!---ENCABEZADO DE LA PAGINA --->
+			<div class="contenedor">
+				<header class="contenido-principal">
+					<img loading="lazy" src="img/Proyectos/14.webp" alt="" class="contenido-principal__imagen">
+					<div class="contenido-principal__contenedor">
+						<h1 class="contenido-principal__titulo">DEMOGRAFÍA</h1>
+						<p class="contenido-principal__resumen">
+							 El Consejo Comunal GIRAZOLES DE ZAMORA propone la creación de indicadores demográficos, los cuales permitan resumir la evolución histórica del comportamiento demográficos básicos en nuestro sector (natalidad, fecundidad, mortalidad y nupcialidad), de los divorcios, de los movimientos migratorios y del crecimiento y estructura de la población residente en la Comuna VALLE ARRIBA. Se calculan a partir de los resultados de las estadísticas de Nacimientos, Defunciones y Matrimonios, de la Estadística de nulidades, separaciones y divorcios, de la Estadística de migraciones y de las Cifras de población residente en el Municipio Zamora, del Estado Miranda.
+						</p>
+					</div>
+				</header>
+
+		<!--- FIN ENCABEZADO DE LA PAGINA --->
+
+		<!---CONTENIDO PRINCIPAL --->
+		<main>
+
+            <section class="container">
+				<div class="site-content">
+                    <div class="posts">
+                         <hr>
+                        <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+
+                            <div class="post-title">
+                                <a href="#">POTENCIALIDAD: Densidad Demográfica. </a>
+                                <p>Es el grado de concentración de unos elementos dentro de una superficie, por su parte la demografía proviene del griego “demos” (pueblos) y “grafía” (escribir). Podemos decir entonces que la densidad demográfica se trata de estudiar la relación entre la cantidad de personas que ocupan un territorio y el tamaño de éste, es decir, cuando observamos un territorio pequeño habitado por numerosas personas decimos que existe una densidad alta, pero si por el contrario, tenemos pocas personas habitando un territorio extenso, decimos que la densidad es baja.<br></br> </p>
+                            </div>
+                      <div id="myMap" style="height: 600px"></div>
+                      <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+                       integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+                       crossorigin=""></script>
+                      <script src="js/map.js"></script>
+                    </div>                    
+                </div>
+
+				<!---CONTENIDO INDIRECTO AL MAIN --->
+	            <aside class="sidebar">
+	                <div class="popular-post">
+	                    <h2>DEFINICIÓN.</h2>
+	                    <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+
+
+	                        <div class="post-title"> <a href="index.html"></a> 
+	                        	<p>CRECIMIENTO TOTAL ANUAL: Es el incremento medio anual total de una población, vale decir el número de nacimientos menos el de defunciones, más el de inmigrantes y menos el de emigrantes, durante un determinado período.<br><br/>POBLACIÓN ECONÓMICAMENTE ACTIVA (PEA): En general se considera población económicamente activa al conjunto de personas, de uno u otro sexo, que están dispuestas a aportar su trabajo para la producción de bienes y servicios económicos. Para lograr una mejor armonización de las cifras considera la población económicamente activa aquella que, según nuestra fuente sea mayor a 15 años de edad.<br><br/>TASA BRUTA DE NATALIDAD: Mide la frecuencia de los nacimientos ocurridos en un período en relación a la población total. Es el cociente entre el número medio anual de nacimientos ocurridos durante un período determinado y la población media del período.<br><br/> TASA BRUTA DE MORTALIDAD: Mide la frecuencia de las defunciones ocurridas en un período en relación a la población total. Es el cociente entre el número medio anual de defunciones ocurridas durante un período determinado y la población media de ese período.<br><br/>TASA DE ACTIVIDAD: Es el cociente entre el total de personas económicamente activas en una fecha determinada y la población que por su edad, puede ser activa (en este caso, 15 o más años) a esa fecha. También se puede calcular tasas específicas por edad y sexo.</p>
+	                        </div>
+        					<nav>
+            					<a href="index.html"><img loading="lazy" src="img/home.webp" alt="" ></a>
+	           
+    					    </nav>
+
+		                </div>
+		            </aside>
+					<!---CONTENIDO INDIRECTO AL MAIN --->
+			</section>
+		</main>
+		<!---FIN CONTENIDO PRINCIPAL --->
+
+		<!---PIE DE PAGINA --->
+		<footer class="footer">
+            <div class="container">
+                <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                    <h2>Nosotros</h2>
+                    <p>Pretendemos crear una Reputación producto de nuestro trabajo y la medimos de acuerdo al cumplimiento de nuestros objetivos.</p>
+                </div>
+                <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                    <h2>Boletin informativo</h2>
+                    <p>La razón de este Boletin Digital es básicamente una herramienta de evaluación. Con la finalidad de dar transparencia a la gestión del Consejo Comunal con algo innovador..</p>
+                </div>
+                <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                    <h2>Siguenos</h2>
+                    <p>Nuestras redes sociales</p>
+                    <div>
+                        <a href="https://twitter.com/2019ccgz"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/2019ccgz/"><i class="fab fa-instagram"></i></a>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="rights flex-row">
+                <h4 class="text-gray">
+                    Copyright ©2020 Todos los derechos reservados | Hecho por Long Art Digital
+               
+                </h4>
+            </div>
+            <div class="move-up">
+                <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+            </div>
+        </footer>					
+		<!---FIN PIE DE PAGINA --->
+
+
+
+		<!---libreria del carousel --->
+		<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+		<!---libreria del carousel --->
+		<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+		<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+		<script src="js/app.js"></script>	
+	</body>
+</html>
