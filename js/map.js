@@ -1,5 +1,5 @@
 let myMap = L.map('myMap').setView([10.4749721, -66.5320073], 16)
-L.tileLayer(`https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png`, { //Fondo del mapa
+L.tileLayer(`https://c.tile.openstreetmap.org/{z}/{x}/{y}.png`, { //Fondo del mapa
 	maxZoom: 20,
 }).addTo(myMap);
 
