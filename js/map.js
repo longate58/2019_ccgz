@@ -1,7 +1,7 @@
 
     let myMap = L.map('myMap').setView([10.4769721, -66.5320073], 18)
-        L.tileLayer(`https://c.tile.osm.org/{z}/{x}/{y}.png`, { //Fondo del mapa
-    	maxZoom: 50, attribution: 'Tiles &copy; OpenStreetMap &mdash; Copyright: &copy;2020 Long Art Digital',
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { //Fondo del mapa
+    	maxZoom: 50, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 
     }).addTo(myMap);
 
@@ -23,3 +23,10 @@
     };
 
     L.control.groupedLayers(MapaBase).addTo(map);
+
+
+//---------------------------------------------------
+var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
