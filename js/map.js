@@ -1,5 +1,5 @@
 
-    let myMap = L.map('myMap').setView([10.4749721, -66.5320073], 16)
+    let myMap = L.map('myMap').setView([10.4757721, -66.5309073], 16)
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { //Fondo del mapa
     	maxZoom: 60, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors - Long Art Digital',
 
